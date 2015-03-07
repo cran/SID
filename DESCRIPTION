@@ -1,0 +1,15 @@
+Package: SID
+Type: Package
+Title: Structural Intervention Distance
+Version: 1.0
+Date: 2015-03-07
+Author: Jonas Peters
+Encoding: UTF-8
+Imports: pcalg, igraph, RBGL, Matrix
+Maintainer: Jonas Peters <jonas.peters@tuebingen.mpg.de>
+Description: The code computes the structural intervention distance (SID) between a true directed acyclic graph (DAG) and an estimated DAG. Definition and details about the implementation can be found in J. Peters and P. Bühlmann: "Structural intervention distance (SID) for evaluating causal graphs", Neural Computation 27, pages 771-799, 2015.
+License: FreeBSD
+Packaged: 2015-03-07 14:35:03 UTC; jopeters
+NeedsCompilation: no
+Repository: CRAN
+Date/Publication: 2015-03-07 17:35:02

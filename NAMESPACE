@@ -1,0 +1,2 @@
+import(RBGL,Matrix)
+export(structIntervDist, hammingDist, randomDAG, computePathMatrix, computePathMatrix2)
