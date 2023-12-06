@@ -1,8 +1,8 @@
-dag2cpdagAdj <-
-function(Adj)
+dag2cpdagAdj <-function(Adj)
 # Copyright (c) 2010 - 2012  Jonas Peters  [peters@stat.math.ethz.ch]
-# All rights reserved.  See the file COPYING for license terms. 
+# All rights reserved.  See the file COPYING for license terms.
 {
+
     if(sum(Adj) == 0)
     {
         return(Adj)
@@ -21,8 +21,8 @@ function(Adj)
     ##plot(pcalg::dag2cpdag(as(Adj, "graphNEL")))
     ##as(pcalg::dag2cpdag(as(t(Adj), "graphNEL")), "matrix")
     ##plot(pcalg::dag2cpdag(as(t(Adj), "graphNEL")))
-    
-    
-    
+
+
+
     return(result)
 }

@@ -1,2 +1,4 @@
 import(RBGL,Matrix)
+importFrom("methods", "as")
+importFrom("stats", "rbinom")
 export(structIntervDist, hammingDist, randomDAG, computePathMatrix, computePathMatrix2)
